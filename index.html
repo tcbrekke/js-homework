@@ -21,11 +21,12 @@
         </div>
       </div>
 
-      <div class="row text-center"">
-        <div class="col-sm-12 py-2">
-          <form onsubmit="return handleFilterSubmit()">
-            <input type="text" id="filter-input" placeholder="Filter by..." size=40>
-            <input type="submit">
+      <div class="row text-center">
+        <div class="col-sm-12 py-2 form-group">
+          <form>
+            <input type="date" id="date-input" min="2010-01-01" max="2014-05-08">
+            <input type="text" id="filter-input" placeholder="Filter by keywords..." size=40>
+            <input type="submit" id="filter-submit">
           </form>
         </div>
       </div>
